@@ -1,0 +1,3 @@
+sleep 5h
+# date
+CUDA_VISIBLE_DEVICES=0,1,2,3 python -m torch.distributed.launch --nproc_per_node=4 --master_port 29506 --master_addr 127.0.0.6 ft_mavex.py --save_name re-path --ablation bce prune path mi --new_param_lr 0.0001 --seed 7777  --num_epochs 2 --vil_dim 128 --num_train_epochs 30 --graph_size 1000 --use_split_name 8505 --from_pretrained /home/jingrugan/KBVQA/MAVEX/save/bert_base_6layer_6conect-re-step1-40-0.0001/pytorch_model_40.bin

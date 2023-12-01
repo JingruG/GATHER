@@ -1,0 +1,3 @@
+from allennlp_models.rc.transformer_qa.transformer_squad import TransformerSquadReader
+from allennlp_models.rc.transformer_qa.transformer_qa_model import TransformerQA
+from allennlp_models.rc.transformer_qa.transformer_qa_predictor import TransformerQAPredictor

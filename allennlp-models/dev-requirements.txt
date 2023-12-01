@@ -1,0 +1,27 @@
+#### TESTING-RELATED PACKAGES ####
+
+# Checks style, syntax, and other useful errors.
+flake8
+
+# Static type checking
+mypy==0.770
+
+# Automatic code formatting
+black
+
+# For creating git precommit hooks
+pre-commit==2.3.0
+
+# Allows generation of coverage reports with pytest.
+pytest-cov
+
+# Allows codecov to generate coverage reports
+coverage
+codecov
+
+#### PACKAGE-UPLOAD PACKAGES ####
+
+# Pypi uploads
+twine>=1.11.0
+setuptools
+wheel

@@ -1,0 +1,3 @@
+from allennlp_models.rc.bidaf.bidaf_model import BidirectionalAttentionFlow
+from allennlp_models.rc.bidaf.bidaf_ensemble import BidafEnsemble
+from allennlp_models.rc.bidaf.bidaf_predictor import ReadingComprehensionPredictor
